@@ -9,5 +9,5 @@
 
 .footer p {
   color: hsl(var(--fc1), 50%);
-  font-size: max(1rem, 0.8vw);
+  font-size: max(0.8rem, 0.8vw);
 }

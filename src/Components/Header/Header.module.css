@@ -13,7 +13,7 @@
 
 .logo h1 {
   color: hsl(var(--fc1), 50%);
-  font-size: max(1.5rem, 1vw);
+  font-size: max(1.25rem, 1vw);
 }
 
 .media svg {

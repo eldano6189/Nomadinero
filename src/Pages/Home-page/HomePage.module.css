@@ -9,7 +9,7 @@
 .subHeader h2 {
   text-transform: uppercase;
   padding-bottom: 1em;
-  font-size: max(1rem, 0.8vw);
+  font-size: max(0.8rem, 0.8vw);
   color: hsl(var(--fc1), 50%);
 }
 
@@ -55,13 +55,13 @@
 
 .link h3 {
   text-transform: uppercase;
-  font-size: max(2rem, 3vw);
+  font-size: max(1.5rem, 3vw);
   color: hsl(var(--fc1));
 }
 
 .link p {
   text-transform: uppercase;
-  font-size: max(1rem, 0.8vw);
+  font-size: max(0.8rem, 0.8vw);
   color: hsl(var(--fc1), 50%);
 }
 
