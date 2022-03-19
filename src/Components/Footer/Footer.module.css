@@ -8,6 +8,6 @@
 }
 
 .footer p {
-  color: hsl(var(--fc1), 50%);
-  font-size: max(0.8rem, 0.8vw);
+  color: hsl(var(--fc1), 25%);
+  font-size: max(0.6rem, 0.6vw);
 }
