@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import { Animation } from "../Animation/Animation";
 
 export const Footer = () => {
   const date = new Date();
@@ -6,7 +7,9 @@ export const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <p>© 2021-{year} NOMADINERO</p>
+      <Animation delay={4}>
+        <p>© 2021-{year} NOMADINERO</p>
+      </Animation>
     </footer>
   );
 };

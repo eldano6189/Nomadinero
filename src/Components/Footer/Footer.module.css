@@ -5,6 +5,7 @@
   left: 0;
   padding: 2vw;
   z-index: 5;
+  display: flex;
 }
 
 .footer p {
