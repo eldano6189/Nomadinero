@@ -8,7 +8,7 @@ export const Animation = ({ children, delay }) => {
   useEffect(() => {
     gsap.to(animElement.current, {
       delay: delay,
-      duration: 2,
+      duration: 1.5,
       xPercent: 100,
     });
   });
