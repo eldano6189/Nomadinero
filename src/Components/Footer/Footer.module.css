@@ -1,0 +1,13 @@
+.footer {
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2vw;
+  z-index: 5;
+}
+
+.footer p {
+  color: hsl(var(--fc1), 50%);
+  font-size: max(1rem, 0.8vw);
+}

@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  padding: 2vw;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  color: hsl(var(--fc1), 50%);
+  font-size: max(1.5rem, 1vw);
+}
+
+.media svg {
+  cursor: pointer;
+  width: max(1.6rem, 1.2vw);
+  height: max(1.6rem, 1.2vw);
+  margin: 0 0.5em;
+}
