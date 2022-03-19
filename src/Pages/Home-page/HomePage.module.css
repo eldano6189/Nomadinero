@@ -88,7 +88,7 @@
     justify-content: center;
   }
   .dot {
-    margin: 1em;
+    margin: 0.5em 0.5em 0.5em 1em;
   }
   .vertLine {
     display: block;
