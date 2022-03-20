@@ -14,12 +14,12 @@ export const Header = () => {
 
   return (
     <header className={styles.header}>
-      <Animation delay={4}>
+      <Animation delay={3.4}>
         <div className={styles.logo}>
           <h1>NOMADINERO</h1>
         </div>
       </Animation>
-      <Animation delay={4.5}>
+      <Animation delay={3.6}>
         <div className={styles.media}>
           <Email onClick={menuHandle} />
 

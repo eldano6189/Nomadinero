@@ -59,7 +59,7 @@
   position: relative;
   border: none;
   background-color: transparent;
-  box-shadow: 20px 20px 60px #000000, -20px -20px 60px #000000;
+  border: 1px solid hsl(var(--fc1), 6%);
   color: hsl(var(--fc1));
   padding: 1em 2em;
   cursor: pointer;

@@ -1,8 +1,6 @@
 .animation {
   position: relative;
   overflow: hidden;
-  width: auto;
-  height: auto;
   margin: 2px;
 }
 

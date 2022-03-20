@@ -11,7 +11,7 @@ export const Form = () => {
       <div className={styles.containerForm}>
         <h1>Licence Application Form</h1>
         <Button onClick={menuHandle} />
-        <form name="contact" method="post">
+        <form name="contact" method="post" action="/success">
           <input type="hidden" name="form-name" value="contact" />
           <input type="text" name="name" placeholder="NAME*" required />
           <input type="email" name="email" placeholder="EMAIL*" required />

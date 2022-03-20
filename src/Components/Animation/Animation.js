@@ -11,7 +11,7 @@ export const Animation = ({ children, delay }) => {
       duration: 1.5,
       xPercent: 100,
     });
-  });
+  }, [delay]);
 
   return (
     <div className="animation">

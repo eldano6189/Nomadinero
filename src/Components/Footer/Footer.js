@@ -7,7 +7,7 @@ export const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <Animation delay={4}>
+      <Animation delay={3.4}>
         <p>© 2021-{year} NOMADINERO</p>
       </Animation>
     </footer>

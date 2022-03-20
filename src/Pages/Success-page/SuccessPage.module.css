@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header {
+  color: hsl(var(--fc1), 50%);
+  margin-bottom: 1.5rem;
+  font-size: max(0.8rem, 2vw);
+}
+
+.subHeader {
+  color: hsl(var(--fc1));
+  margin-bottom: 1.5rem;
+  font-size: max(0.8rem, 2vw);
+}
+
+.link {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  border: 1px solid hsl(var(--fc1), 6%);
+  color: hsl(var(--fc1));
+  padding: 1em 2em;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.link:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: hsl(var(--fc1));
+  transform: translateX(-101%);
+  transition: all 0.3s ease;
+}
+
+.link:hover:before {
+  transform: translateX(0%);
+}
