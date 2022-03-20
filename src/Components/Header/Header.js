@@ -1,11 +1,17 @@
 import styles from "./Header.module.css";
 import { Animation } from "../Animation/Animation";
 
+import { useContext } from "react";
+import DataContext from "../../Context/DataContext";
+
 import { Facebook } from "../../Assets/SVGs/Facebook";
 import { Instagram } from "../../Assets/SVGs/Instagram";
 import { Twitter } from "../../Assets/SVGs/Twitter";
+import { Email } from "../../Assets/SVGs/Email";
 
 export const Header = () => {
+  const { menuHandle } = useContext(DataContext);
+
   return (
     <header className={styles.header}>
       <Animation delay={4}>
@@ -15,6 +21,8 @@ export const Header = () => {
       </Animation>
       <Animation delay={4.5}>
         <div className={styles.media}>
+          <Email onClick={menuHandle} />
+
           <a
             href="https://www.facebook.com/Nomadinero"
             rel="noopener noreferrer"
