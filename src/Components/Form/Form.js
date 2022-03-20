@@ -15,9 +15,9 @@ export const Form = () => {
           name="contact"
           method="post"
           data-netlify="true"
-          netlify-honeypot="bot-field"
-          action="https://nomadinero.com/success"
           onSubmit="submit"
+          action="/success"
+          data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact" />
           <input type="text" name="name" placeholder="NAME*" required />
