@@ -8,7 +8,7 @@ export const SuccessPage = () => {
     <div className={`${styles.container} container`}>
       <SplashScreen />
       <Animation delay={3.6}>
-        <h1 className={styles.header}>THANKYOU!</h1>
+        <h1 className={styles.header}>THANK YOU!</h1>
       </Animation>
       <Animation delay={4}>
         <p className={styles.subHeader}>
