@@ -16,7 +16,7 @@ export const Form = () => {
           method="post"
           data-netlify="true"
           netlify-honeypot="bot-field"
-          action="/success/"
+          action="https://nomadinero.com/success"
           onSubmit="submit"
         >
           <input type="hidden" name="form-name" value="contact" />
