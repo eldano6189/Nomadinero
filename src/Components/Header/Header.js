@@ -31,7 +31,7 @@ export const Header = () => {
             <Facebook />
           </a>
           <a
-            href="https://www.instagram.com/accounts/nomadinero/"
+            href="https://www.instagram.com/nomadinero/"
             rel="noopener noreferrer"
             target="_blank"
           >
