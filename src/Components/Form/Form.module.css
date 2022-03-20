@@ -29,6 +29,8 @@
 .containerForm h1 {
   color: hsl(var(--fc1), 50%);
   margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .container form {

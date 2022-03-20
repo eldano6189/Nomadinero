@@ -13,17 +13,16 @@ export const Form = () => {
         <Button onClick={menuHandle} />
         <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
-          <input type="text" name="name" placeholder="Name*" required />
-          <input type="email" name="email" placeholder="Email*" required />
+          <input type="text" name="name" placeholder="NAME*" required />
+          <input type="email" name="email" placeholder="EMAIL*" required />
           <input
             type="text"
             name="licence"
-            placeholder="Commercial / Editorial*"
+            placeholder="COMMERCIAL / EDITORIAL*"
             required
           />
-          <input type="text" name="subject" placeholder="Subject*" required />
-          <textarea name="message" placeholder="Message*" required></textarea>
-          <button type="submit">Send</button>
+          <textarea name="message" placeholder="MESSAGE*" required></textarea>
+          <button type="submit">SEND</button>
         </form>
       </div>
     </div>

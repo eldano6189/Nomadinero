@@ -35,3 +35,10 @@
 .button:hover:before {
   width: 300%;
 }
+
+@media screen and (max-width: 820px) {
+  .button:after,
+  .button:before {
+    width: 300%;
+  }
+}
