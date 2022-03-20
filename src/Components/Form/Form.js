@@ -46,6 +46,8 @@ export const Form = () => {
     }
   };
 
+  console.log(submitText);
+
   return (
     <div className={styles.container}>
       <div className={styles.containerForm}>
