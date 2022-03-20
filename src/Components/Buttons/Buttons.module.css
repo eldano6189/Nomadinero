@@ -40,5 +40,6 @@
   .button:after,
   .button:before {
     width: 300%;
+    height: 0.2rem;
   }
 }
