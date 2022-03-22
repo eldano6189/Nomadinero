@@ -34,6 +34,14 @@
   text-align: center;
 }
 
+.containerForm p {
+  font-size: max(0.8rem, 1vw);
+  color: hsl(var(--fc1));
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .container form {
   display: flex;
   flex-direction: column;
