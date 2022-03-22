@@ -9,7 +9,7 @@ export const Form = () => {
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
-    if (window.location.search.includes("success=true")) {
+    if (window.location.search.includes("success")) {
       setSuccess(true);
     }
   }, []);
@@ -25,7 +25,7 @@ export const Form = () => {
           method="post"
           data-netlify="true"
           onSubmit="submit"
-          action="/success=true"
+          action="/success"
           data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact" />
