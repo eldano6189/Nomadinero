@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Button } from "../Buttons/Buttons";
 import { useContext } from "react";
 import DataContext from "../../Context/DataContext";
@@ -6,19 +5,12 @@ import styles from "./Form.module.css";
 
 export const Form = () => {
   const { menuHandle } = useContext(DataContext);
-  const [success, setSuccess] = useState(false);
-
-  useEffect(() => {
-    if (window.location.search.includes("success")) {
-      setSuccess(true);
-    }
-  }, []);
 
   return (
     <div className={styles.container}>
       <div className={styles.containerForm}>
         <h1>Licence Application Form</h1>
-        {success ? <p>YOUR FORM SUBMISSION HAS BEEN RECIEVED</p> : null}
+
         <Button onClick={menuHandle} />
         <form
           name="contact"
