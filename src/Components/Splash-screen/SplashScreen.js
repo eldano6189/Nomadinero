@@ -6,9 +6,11 @@ import { Animation } from "../Animation/Animation";
 export const SplashScreen = () => {
   const splash = useRef();
 
+  // change opacity back to 0 once backened is required again
+
   useEffect(() => {
     gsap.to(splash.current, {
-      opacity: 0,
+      opacity: 1,
       delay: 3,
     });
   });
